@@ -4,7 +4,7 @@ Tiek veidota programma priekš skola eksāmena
 - [x] Izveidots README fails
 - [x] Iesākts testa darbs
 - [x] Izveidota switch izvēle
-- [ ] Izveidots tests
-- [ ] Pievienoti jautājumi
-- [ ] Programma testēta
+- [x] Izveidots tests
+- [x] Pievienoti jautājumi
+- [x] Programma testēta
 - [ ] Kļūda izlabošana
