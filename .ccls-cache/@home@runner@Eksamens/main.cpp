@@ -32,8 +32,9 @@ void jautajums8(){
   if(atbilde=="b" || atbilde == "false"){
     jautajums9();
   }else
+    nep++;
     jautajums9();
-  nep++;
+
 
 }
 void jautajums7(){
@@ -42,8 +43,9 @@ void jautajums7(){
   if(atbilde=="b" || atbilde == "false"){
     jautajums8();
   }else
+    nep++;
     jautajums8();
-  nep++;
+ 
 }
 void jautajums6(){
    string atbilde;
@@ -51,8 +53,9 @@ void jautajums6(){
   if(atbilde=="a" || atbilde == "true"){
     jautajums7();
   }else
+    nep++;
     jautajums7();
-  nep++;
+ 
 }
 void jautajums5(){
   string atbilde;
@@ -60,8 +63,9 @@ void jautajums5(){
   if(atbilde=="a" || atbilde == "true"){
     jautajums6();
   }else
+    nep++;
     jautajums6();
-  nep++;
+  
 } 
 
 void jautajums4(){
@@ -70,8 +74,9 @@ void jautajums4(){
   if(atbilde=="d" || atbilde == "Nepatiess"){
     jautajums5();
   }else
+    nep++;
     jautajums5();
-  nep++;
+  
 } 
 
 void jautajums3(){
@@ -80,8 +85,9 @@ void jautajums3(){
   if(atbilde=="a" || atbilde == "Vienāds"){
     jautajums4();
   }else
+    nep++;
     jautajums4();
-  nep++;
+  
 }
 
 void jautajums2(){
@@ -90,8 +96,9 @@ void jautajums2(){
   if(atbilde=="b" || atbilde == "Lielāks"){
     jautajums3();
   }else
+    nep++;
     jautajums3();
-  nep++;
+  
 }
 void jautajums1(){
    string atbilde;
@@ -99,8 +106,9 @@ cout<<"Ko nozīmē simbols .<. ? \n a) Vienāds \n b) Lielāks \n c) Mazāks \n 
   if(atbilde=="c" || atbilde == "mazāks"){
     jautajums2();
   }else
+    nep++;
     jautajums2();
-  nep++;
+  
 }
 
 int main() {
@@ -115,7 +123,6 @@ int main() {
     cin>>izvele;
   switch(izvele){
     case 1: jautajums1();
-    case 3: jautajums9();
 
       }
   }while(kkas == "j");
