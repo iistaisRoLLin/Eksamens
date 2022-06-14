@@ -7,4 +7,4 @@ Tiek veidota programma priekš skola eksāmena
 - [x] Izveidots tests
 - [x] Pievienoti jautājumi
 - [x] Programma testēta
-- [ ] Kļūda izlabošana
+- [x] Kodu kļūdu izlabošana
